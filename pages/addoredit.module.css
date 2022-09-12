@@ -1,0 +1,62 @@
+.container {
+  margin:50px 0px 150px 0px;
+}
+
+.input {
+    width: 50%;
+    align-items: center;
+    padding: 12px 20px ;
+    margin:20px 30px ;
+    box-sizing: border-box;
+    font-size: 33px;
+  }
+  .label{
+      font-size: 30px;
+     display: flex;
+  margin-left: 25%;
+  }
+  .inputNotes {
+    width: 50%;
+    height: 200px;
+    padding: 12px 20px ;
+    margin:20px 30px ;
+    box-sizing: border-box;
+    font-size: 33px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  .buttons{
+      background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+      border-radius: 8px;
+      border-style: none;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+      font-size: 2vw;
+      font-weight: 500;
+      height: 4rem;
+      padding: 0 1.6rem;
+      text-align: center;
+      text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+      transition: all .5s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      margin-left: 20px;
+    }
+    
+    
+    
+    .buttonSave:hover {
+      box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+      transition-duration: .1s;
+    }
+    
+    @media (min-width: 768px) {
+      .buttonSave {
+        padding: 0 2.6rem;
+      }
+    }
+  
